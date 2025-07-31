@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "d09d408e3bdaf29aa3b3794dcd9b5c17"
-application_url = "https://mighty-calcium-gods-laugh.trycloudflare.com"
+application_url = "https://faced-methods-studies-nonprofit.trycloudflare.com"
 embedded = true
 name = "Remix First App"
 handle = "remix-first-app-2"
@@ -27,7 +27,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://mighty-calcium-gods-laugh.trycloudflare.com/auth/callback", "https://mighty-calcium-gods-laugh.trycloudflare.com/auth/shopify/callback", "https://mighty-calcium-gods-laugh.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://faced-methods-studies-nonprofit.trycloudflare.com/auth/callback", "https://faced-methods-studies-nonprofit.trycloudflare.com/auth/shopify/callback", "https://faced-methods-studies-nonprofit.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

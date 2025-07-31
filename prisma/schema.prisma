@@ -9,8 +9,8 @@ generator client {
 // enough when changing adapters.
 // See https://www.prisma.io/docs/orm/reference/prisma-schema-reference#string for more information
 datasource db {
-  provider = "sqlite"
-  url      = "file:dev.sqlite"
+  provider = "postgresql"
+  url      = "postgresql://remix_db_fr76_user:2Y1kEii1dUFWE8gGLmmsEn6mNmyp6jpf@dpg-d25hh5ili9vc73fajl1g-a.oregon-postgres.render.com/remix_db_fr76"
 }
 
 model Session {
