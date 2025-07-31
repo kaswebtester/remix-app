@@ -1,0 +1,29 @@
+<div class="custom-widget">
+  <p>{{ block.settings.message }}</p>
+</div>
+
+<style>
+  .custom-widget {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Custom Widget",
+  "target": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "message",
+      "label": "Message",
+      "default": "Hello from the app!"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["*"]
+  }
+}
+{% endschema %}

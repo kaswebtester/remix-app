@@ -71,3 +71,6 @@
     padding-bottom: 1rem;
   }
 }
+.Polaris-Layout__Section {
+    min-width: 100%;
+}
